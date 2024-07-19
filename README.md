@@ -11,5 +11,5 @@
 
 4. 根据规范，promise有pending，fulfilled，rejected三个状态，初始状态为pending，调用resolve会将其改为fulfilled，调用reject会改为rejected。
 
-5. promise实例对象建好后可以调用then方法，而且是可以链式调用then方法，说明then是一个实例方法。链式调用的实现这篇有详细解释，我这里不再赘述。简单的说就是then方法也必须返回一个带then方法的对象，可以是this或者新的promise实例。
+5. promise实例对象建好后可以调用then方法，而且是可以链式调用then方法，说明then是一个实例方法。链式调用的实现这篇有详细解释。简单的说就是then方法也必须返回一个带then方法的对象，可以是this或者新的promise实例。
 
